@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	html{
+		width: 480px;
+		background: url(images/bg.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.conteiner{
+		width: 450px;
+		height: 850px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+	}
+
+	.inner{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 640px;
+	}
+
+	.logo{
+		margin-left: 50px;
+	}
+
+	.content{
+		height: 265px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.h1{
+		display: flex;
+		align-items: center;
+	}
+
+	.img{
+		width: 32px;
+		height: 30px;
+		background-image: url(images/tools.png);
+	}
+
+	h1{
+		font-family: 'Gotham Pro', sans-serif;
+		font-weight: bold;
+		font-size: 36px;
+		color: #fff;
+	}
+
+	p{
+		font-family: 'Gotham Pro', sans-serif;
+		font-weight: normal;
+		font-size: 16px;
+		color: #fff;
+		text-align: center;
+	}
+
+	.networks{
+		width: 230px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.social{
+		width: 40px;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.footer{
+		height: 88px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="conteiner">
+		<div class="inner">
+
+		<div class="logo">
+			<img src="images/logo.png" alt="">
+		</div><!-- end logo -->
+
+		<div class="content">
+			<div class="h1">
+				<div class="img"></div>&#8195;	
+				<h1>Технические работы</h1>
+			</div>
+
+			<p>Нам приятно, что Вы заинтересовались нашей компанией. Сейчас мы усиленно ведем работы над проектом, чтобы в дальнейшем Вы пользовались качественным сервисом. За нашим развитием Вы можете следить в социальных сетях.</p>
+
+			<div class="networks">
+				<div class="social"><a href="https://vk.com/ish.earth"><img src="images/vk.png" alt=""></a></div>
+				<div class="social"><a href="https://twitter.com/ish_earth"><img src="images/twitter.png" alt=""></a></div>
+				<div class="social"><a href="https://www.linkedin.com/company/28985096/"><img src="images/linkedin.png" alt=""></a></div>
+				<div class="social"><a href="https://www.facebook.com/InternationalScienceHub"><img src="images/facebook.png" alt=""></a></div>
+			</div>
+		</div><!-- end content -->
+
+		<div class="footer">
+			<p>При поддержке:</p>
+			<img src="images/footer-logo.png" alt="">
+		</div><!-- end footer -->
+	</div>
+	</div><!-- end conteiner -->
+
+</body>
+</html>
